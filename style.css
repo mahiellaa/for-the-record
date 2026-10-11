@@ -69,4 +69,24 @@ body:not(.chaos-on) .ambient-bat{display:none}body:not(.chaos-on) .ambient-spark
   --orange: #FF811F;
   --amber: #FFC16A;
   --paper: #F6DDCE;
+} 
+
+
+@keyframes hauntedGlow {
+  0%, 88%, 94%, 100% {
+    text-shadow:
+      2px 2px #9e2b55,
+      0 0 12px #ef3e5766;
+  }
+
+  90%, 92% {
+    text-shadow:
+      2px 2px #9e2b55,
+      0 0 24px #ff811f,
+      0 0 40px #a94dde;
+  }
+}
+
+h1, .logo {
+  animation: hauntedGlow 6s infinite;
 }
