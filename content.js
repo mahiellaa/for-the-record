@@ -2,7 +2,7 @@
    Add as many songs and entries as you want. Copy an item, add a comma, change the words.
    URLs can be Spotify, YouTube, or anywhere else. */
 const SITE = {
-  title: 'soft evidence.',
+  title: 'For the record,',
   tagline: 'some things are easier to keep than to explain.',
   about: {
     name: 'the girl behind the curtain',
